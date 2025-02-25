@@ -15,5 +15,7 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     borderColor: 'white',
     fontFamily: 'open-sans-bold',
+    maxWidth: '80%', // 기기크기에 대응, 부모 컨테이너에 대한 퍼센트
+    width: 300,
   },
 });
